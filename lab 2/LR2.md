@@ -77,7 +77,7 @@ NIL
 (defun check-member (item lst)
   (cond
     ((null lst) nil)
-    ((eq item (car lst)) t)
+    ((eql item (car lst)) t)
     (t (check-member item (cdr lst)))))
 
 (defun list-set-union (list1 list2)
