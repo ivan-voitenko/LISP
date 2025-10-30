@@ -105,10 +105,10 @@ CL-USER> (append my-list (third my-list))
 
 ### Лістинг команди конструювання списку та результат її виконанння
 ```lisp
-CL-USER> (setq my-list `(1 A (3 C B) NIL))
-(1 A (3 C B) NIL)
-CL-USER> (setf (cdr (last my-list)) (third my-list))
-(3 C B)
-CL-USER> my-list
-(1 A (3 C B) NIL 3 C B)
+; SLIME 2.24
+CL-USER> (setq listB (list `B))
+(B)
+CL-USER> (setq myList (list 1 `A listB (list 3 `C (car listB))))
+(1 A (B) (3 C B))
+CL-USER> 
 ```
