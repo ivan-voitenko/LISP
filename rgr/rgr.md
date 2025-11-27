@@ -6,7 +6,7 @@
 
 <p align="right"> 
 <b>Студент</b>: 
-<em> XXXXXXXXXXXXXX КВ-</em></p>
+<em> Войтенко Іван КВ-21</em></p>
 
 <p align="right"><b>Рік</b>: <em>2025</em></p>
 
